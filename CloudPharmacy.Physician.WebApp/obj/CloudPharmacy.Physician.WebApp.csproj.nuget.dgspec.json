@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Users\\Fazrin\\RiderProjects\\Cloud-Pharmacy-On-Azure-main\\src\\web-apps\\CloudPharmacy.Physician.WebApp\\CloudPharmacy.Physician.WebApp.csproj": {}
+  },
+  "projects": {
+    "E:\\Users\\Fazrin\\RiderProjects\\Cloud-Pharmacy-On-Azure-main\\src\\web-apps\\CloudPharmacy.Physician.WebApp\\CloudPharmacy.Physician.WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Users\\Fazrin\\RiderProjects\\Cloud-Pharmacy-On-Azure-main\\src\\web-apps\\CloudPharmacy.Physician.WebApp\\CloudPharmacy.Physician.WebApp.csproj",
+        "projectName": "CloudPharmacy.Physician.WebApp",
+        "projectPath": "E:\\Users\\Fazrin\\RiderProjects\\Cloud-Pharmacy-On-Azure-main\\src\\web-apps\\CloudPharmacy.Physician.WebApp\\CloudPharmacy.Physician.WebApp.csproj",
+        "packagesPath": "C:\\Users\\Fazrin\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\Fazrin\\RiderProjects\\Cloud-Pharmacy-On-Azure-main\\src\\web-apps\\CloudPharmacy.Physician.WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fazrin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
